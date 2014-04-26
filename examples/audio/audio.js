@@ -3,6 +3,9 @@
 // [Run the example](../quintus/examples/audio/index.html)
 //
 // This example demonstrates the Quintus audio library
+
+var Quintus = require('../../')
+
 window.addEventListener('load',function(e) {
 
   // Set up a Quintus Instance

@@ -1,7 +1,7 @@
 /*global Quintus:false */
 /*global $:false */
 
-Quintus.DOM = function(Q) {
+module.exports = function(Q) {
   
   Q.setupDOM = function(id,options) {
     options = options || {};

@@ -1,9 +1,9 @@
 /*global Quintus:false */
 /*global Box2D:false */
 
+var Box2D = require('box2dweb')
 
-
-Quintus.Physics = function(Q) {
+module.exports = function(Q) {
   var B2d = Q.B2d = {
       World: Box2D.Dynamics.b2World,
       Vec: Box2D.Common.Math.b2Vec2,

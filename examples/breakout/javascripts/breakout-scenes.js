@@ -1,4 +1,4 @@
-;Quintus.BreakoutScenes = function(Q) {
+module.exports = function(Q) {
 
   Q.scene("title",function(stage) {
     Q.state.set("level",0);

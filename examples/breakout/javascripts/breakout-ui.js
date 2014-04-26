@@ -1,4 +1,4 @@
-;Quintus.BreakoutUI = function(Q) {
+module.exports = function(Q) {
 
   Q.Sprite.extend("Title", {
     init: function(p) {

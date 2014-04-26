@@ -1,6 +1,12 @@
+var Quintus = require('../../../')
+Quintus.BreakoutUI = require('./breakout-ui')
+Quintus.BreakoutSprites = require('./breakout-sprites')
+Quintus.BreakoutScenes = require('./breakout-scenes')
+Quintus.BreakoutLevels = require('./breakout-levels')
+
 window.addEventListener('load',function() {
 
-  var Q = Quintus().include("Sprites, Scenes, Input, Anim, 2D, Audio, Touch, UI")
+  var Q = Quintus().include("Sprites, Scenes, Input, Anim, 2D, Audio, UI")
                    .include("BreakoutUI, BreakoutSprites, BreakoutScenes, BreakoutLevels")
                    .enableSound()
                    .setup({ width: 320, height: 416, downsampleWidth: 640, downsampleHeight: 832  })

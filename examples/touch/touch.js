@@ -4,6 +4,9 @@
 //
 // This example creates a number of random convex shapes 
 // and then adds touch and drag support to them.
+
+var Quintus = require('../../')
+
 window.addEventListener('load',function(e) {
 
 

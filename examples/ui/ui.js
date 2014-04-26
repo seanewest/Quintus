@@ -3,6 +3,9 @@
 // [Run the example](../quintus/examples/ui/index.html)
 //
 // This example creates a couple of UI elements
+
+var Quintus = require('../../')
+
 window.addEventListener('load',function(e) {
 
   // Set up a standard Quintus instance with the 

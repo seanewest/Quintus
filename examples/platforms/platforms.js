@@ -6,6 +6,9 @@
 //
 // This example uses convex polygons as structures for the 
 // player to jump across
+
+var Quintus = require('../../')
+
 window.addEventListener("load",function() {
 
 // Set up an instance of the Quintus engine  and include

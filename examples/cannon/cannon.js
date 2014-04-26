@@ -1,3 +1,5 @@
+var Quintus = require('../../lib/quintus')
+
 window.addEventListener('load',function(e) {
   var Q = window.Q = Quintus()
                      .include('Input,Sprites,Scenes,SVG,Physics')

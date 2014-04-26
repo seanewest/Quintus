@@ -1,3 +1,4 @@
+var Quintus = require('../../')
 // # Quintus moving ball example
 //
 // [Run the example](../quintus/examples/ball/index.html)

@@ -1,4 +1,6 @@
 
+var Quintus = require('../../')
+
     // 1. Wait for the onload even
     window.addEventListener("load",function() {
 

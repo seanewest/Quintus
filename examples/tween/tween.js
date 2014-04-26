@@ -4,6 +4,9 @@
 //
 // This example shows how to use the tween component to
 // play tweened animations in sprites.
+
+var Quintus = require('../../')
+
 window.addEventListener("load",function() {
 
   // Set up a standard Quintus instance with only the 

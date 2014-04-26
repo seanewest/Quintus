@@ -1,4 +1,4 @@
-;Quintus.BreakoutSprites = function(Q) {
+module.exports = function(Q) {
 
   Q.gravityY = 0;
   Q.gravityX = 0;

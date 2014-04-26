@@ -1,3 +1,6 @@
+
+var Quintus = require('../../')
+
 window.addEventListener("load",function() {
 
 var Q = window.Q = Quintus()

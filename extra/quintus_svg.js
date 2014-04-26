@@ -1,7 +1,7 @@
 /*global Quintus:false */
 /*global $:false */
 
-Quintus.SVG = function(Q) {
+module.exports = function(Q) {
   var SVG_NS ="http://www.w3.org/2000/svg"; 
   Q.setupSVG = function(id,options) {
     options = options || {};

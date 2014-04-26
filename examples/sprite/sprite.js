@@ -8,6 +8,9 @@
 // Use the arrows keys to rotate and scale the top sprite and
 // Z or Space to move the sprite up. X resets the position.
 //
+
+var Quintus = require('../../')
+
 window.addEventListener('load',function(e) {
 
 

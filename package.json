@@ -20,7 +20,7 @@
     }
   ],
   "version": "0.2.0",
-  "dependencies": {
+  "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-cli": "~0.1.9",
     "optimist": "~0.6.0",
@@ -35,5 +35,8 @@
     "temporary": "~0.0.5",
     "aws-sdk": "1.4.1",
     "docco": "~0.6.2"
+  },
+  "dependencies": {
+    "box2dweb": "^2.1.0-b"
   }
 }

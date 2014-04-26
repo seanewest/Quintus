@@ -11,6 +11,9 @@
 // of Quintus-specific collision stuff is tucked away at the bottom of 
 // the step method.
 //
+
+var Quintus = require('../../')
+
 window.addEventListener('load',function(e) {
 
 

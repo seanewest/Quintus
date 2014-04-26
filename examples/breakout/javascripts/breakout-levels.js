@@ -1,4 +1,4 @@
-;Quintus.BreakoutLevels = function(Q) {
+module.exports = function(Q) {
 
 	var b = 4; // red
 	var r = 3; // blue
