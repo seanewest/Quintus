@@ -1,14 +1,27 @@
 {
   "name": "Quintus",
+  "version": "0.2.0",
+  "description": "The Quintus game engine enhanced for use with Browserify",
   "repository": {
     "type": "git",
     "url": "git://github.com/seanewest/Quintus"
   },
+  "homepage": "https://github.com/seanewest/Quintus",
+  "keywords": [
+    "game",
+    "browserify",
+    "html5",
+    "canvas",
+    "box2d",
+    "physics",
+    "engine",
+    "2d",
+    "graphics"
+  ],
   "licenses": [
     "MIT",
     "GPLv2"
   ],
-  "version": "0.2.0",
   "dependencies": {
     "box2dweb": "^2.1.0-b"
   }
