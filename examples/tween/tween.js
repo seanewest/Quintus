@@ -16,6 +16,8 @@ window.addEventListener("load",function() {
       height: 320
   });
 
+  Q.ctx.canvas.style.backgroundColor = "black";
+
   // Setup a scene with just one sprite to animate.
   Q.scene("scene1",function(stage) {
       var sprite = new Q.Sprite({ asset: "enemy01.png", x: 32, y: 32, scale: 1 });

@@ -11,6 +11,8 @@ var Quintus = require('../../')
               .setup({ width: 640, height: 480 })
               .controls(true)
 
+      document.body.style.backgroundColor = "black";
+
       // Add in the default keyboard controls
       // along with joypad controls for touch
       Q.input.keyboardControls();
