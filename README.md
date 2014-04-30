@@ -10,18 +10,44 @@ Install
 $ npm install quintus
 ```
 
+Examples
+==============
+You can run and live edit these examples on RequireBin:
+* [ball](http://requirebin.com/?gist=11424891)
+* [cannon](http://requirebin.com/?gist=11426151)
+* [collision](http://requirebin.com/?gist=11426543)
+* [disasteroids](http://requirebin.com/?gist=11426186)
+
+You can alternatively run the examples locally. First clone the repo:
+```
+git clone https://github.com/seanewest/quintus
+cd quintus
+npm install
+```
+
+Install [beefy](https://github.com/chrisdickinson/beefy) for fast and fun browserify development
+```
+$ npm install -g beefy
+```
+
+Now you can run each example like so:
+```
+$ cd examples/ball
+$ beefy ball.js --open
+```
+
 Usage
 ==============
-The only difference is how you require the Quintus engine and modules.
+Browserified Quintus differs with mainline Quintus only in how it requires the Quintus engine and modules.
 
-Here is a very simple module file:
+A sample module file:
 ```js
 module.exports = function(Q) {
     Q.gravityY = 0;
 }
 ```
 
-And here is how you can load Quintus with this module
+And here is how you can load Quintus and this module
 ```js
 var Quintus = require('quintus')
 Quintus.MyModule = require('./my-module')
@@ -31,19 +57,6 @@ window.addEventListener('load',function() {
                      .include("MyModule")
                      .setup({ width: 320, height: 416 });
 });
-```
-
-Examples
-==============
-To run the examples first install beefy:
-```
-$ npm install -g beefy
-```
-
-Then you can run each example like so:
-```
-$ cd examples/ball
-$ beefy ball.js --open
 ```
 
 License
