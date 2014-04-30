@@ -19,6 +19,8 @@ window.addEventListener('load',function(e) {
   var Q = window.Q = Quintus().include("Sprites, Scenes, 2D, Input")
                               .setup({ width: 1000, height: 600 });
 
+  Q.ctx.canvas.style.backgroundColor = "black";
+
   // Draw vertical lines at every 100 pixels for visual indicators
   function drawLines(ctx) {
     ctx.save();

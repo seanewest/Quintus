@@ -10,7 +10,7 @@ var Quintus = require('../../')
       Q.input.keyboardControls();
       Q.input.joypadControls();
 
-      Q.ctx.canvas.style.backgroundColor = "black"
+      Q.ctx.canvas.style.backgroundColor = "black";
 
       Q.gravityX = 0;
       Q.gravityY = 0;
