@@ -7,7 +7,7 @@ Install
 ==============
 
 ```
-$ npm install seanewest/quintus
+$ npm install quintus
 ```
 
 Usage
