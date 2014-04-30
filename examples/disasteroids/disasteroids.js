@@ -1,15 +1,16 @@
 
 var Quintus = require('../../')
-
     // 1. Wait for the onload even
     window.addEventListener("load",function() {
 
       var Q = window.Q = Quintus({ development: true })
               .include("Sprites, Scenes, Input, 2D, Touch, UI")
               .setup({ maximize: true }).touch();
-
+      
       Q.input.keyboardControls();
       Q.input.joypadControls();
+
+      Q.ctx.canvas.style.backgroundColor = "black"
 
       Q.gravityX = 0;
       Q.gravityY = 0;
@@ -276,6 +277,7 @@ var Quintus = require('../../')
 
 
       Q.scene("level1",function(stage) {
+
         var player = stage.insert(new Q.Ship({ x: Q.width/2, y: Q.height/2}));
 
         stage.insert(new Q.Asteroid({ size: 60 }));
