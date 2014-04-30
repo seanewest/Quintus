@@ -1,7 +1,7 @@
-Browserified Quintus
+Quintus + Browserify
 ==============
 
-This is a browserified version of [Quintus](https://github.com/cykod/Quintus) that I am currently using for my [Sandbox](https://github.com/seanewest/sandbox) project.
+This is an npm-friendly and [browserified](https://github.com/substack/node-browserify) fork of [Quintus](https://github.com/cykod/Quintus).
 
 Install
 ==============
@@ -20,6 +20,7 @@ module.exports = function(Q) {
   Q.gravityY = 0;
 }
 ```
+
 And here is how you can load this module into your main Quintus setup
 ```js
 var Quintus = require('quintus')
@@ -31,3 +32,20 @@ window.addEventListener('load',function() {
                    .setup({ width: 320, height: 416 });
 }
 ```
+
+Examples
+==============
+To run the examples first install beefy:
+```
+$ npm install -g beefy
+```
+
+Then you can run each example like so:
+```
+$ cd examples/ball
+$ beefy ball.js --open
+```
+
+License
+==============
+MIT / GPLv2
