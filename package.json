@@ -19,8 +19,14 @@
     "graphics"
   ],
   "licenses": [
-    "MIT",
-    "GPLv2"
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    },
+    {
+      "type": "GPLv2",
+      "url": "http://opensource.org/licenses/GPL-2.0"
+    }
   ],
   "dependencies": {
     "box2dweb": "^2.1.0-b"
